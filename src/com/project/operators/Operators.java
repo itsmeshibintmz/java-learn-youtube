@@ -8,7 +8,7 @@ public class Operators {
 		/* Arithmetic Operators
 		 * '+' - Addition
 		 * '-' - Subtraction
-		 * *'' - Multiplication
+		 * '*' - Multiplication
 		 * '/' - Division
 		 * '%' - Remainder
 		 */
