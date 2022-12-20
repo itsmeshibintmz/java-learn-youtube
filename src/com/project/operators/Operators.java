@@ -28,16 +28,6 @@ public class Operators {
 		result %= 2;
 		System.out.println("result % 2 = " + result);
 		
-		// Unary Operators
-		/* 
-		 * '+' : Unary Plus Operator, indicates positive value
-		 * '-' : Unary minus operator, negates an expression
-		 * '++' : Increment operator, increments a value by 1
-		 * '--' : Decrement operator, decrements a value by 1
-		 * '!' : Logical complement operator, inverts the value of a boolean
-		 */
-		
-		
 
 	}
 
