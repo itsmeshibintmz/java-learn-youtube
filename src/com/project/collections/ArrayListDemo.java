@@ -24,5 +24,9 @@ public class ArrayListDemo {
 		
 		arrayList.remove(2);
 		System.out.println(arrayList);
+		
+		for(int i : arrayList) {
+			System.out.print(arrayList.get(i) + " ");
+		} 
 	}
 }
