@@ -1,4 +1,4 @@
-package com.project.controlflow;
+package com.project.loops;
 
 public class WhileLoop {
 
