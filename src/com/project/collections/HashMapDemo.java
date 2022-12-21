@@ -1,6 +1,7 @@
 package com.project.collections;
 
 import java.util.*;
+import java.util.Map.Entry;
 
 public class HashMapDemo {
 
@@ -24,6 +25,10 @@ public class HashMapDemo {
 		// To iterate over the Map
 		for(String key : hashMap.keySet()) {
 			System.out.println("The value of " + key + " is " + hashMap.get(key));
+		}
+		
+		for(Entry<String, Integer> entry: hashMap.entrySet()) {
+			System.out.println("key " + entry.getKey() + ", "+ "value: " + entry.getValue());
 		}
 	} 
 
