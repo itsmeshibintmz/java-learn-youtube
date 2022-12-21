@@ -1,4 +1,4 @@
-package com.firstproject.typeconversion;
+package com.project.typeconversion;
 
 public class ExplicitDataTypeConversion {
 
