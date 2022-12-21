@@ -7,8 +7,8 @@ public class TernaryOperator {
 		int b = 20;
 		int result;
 		
-		result = a > b ? a : b;
-		System.out.println("Greater value is: " + result);
+		result = a > b ? a : b ;
+		System.out.println("Greater value is: " + result );
 	}
 
 }
