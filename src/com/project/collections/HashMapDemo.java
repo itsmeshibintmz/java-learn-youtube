@@ -20,6 +20,11 @@ public class HashMapDemo {
 			Integer a = hashMap.get("a");
 			System.out.println("The value of key 'a' is " + a);
 		}
+		 
+		// To iterate over the Map
+		for(String key : hashMap.keySet()) {
+			System.out.println("The value of " + key + " is " + hashMap.get(key));
+		}
 	} 
 
 }
