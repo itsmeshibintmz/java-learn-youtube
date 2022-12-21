@@ -15,6 +15,11 @@ public class HashMapDemo {
 		
 		System.out.println(hashMap);
 		System.out.println("size of the hashmap is: " + hashMap.size());
+		
+		if(hashMap.containsKey("a")) {
+			Integer a = hashMap.get("a");
+			System.out.println("The value of key 'a' is " + a);
+		}
 	} 
 
 }
