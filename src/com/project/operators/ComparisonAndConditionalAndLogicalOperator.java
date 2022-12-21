@@ -39,6 +39,10 @@ public class ComparisonAndConditionalAndLogicalOperator {
 		
 		String greater = value1 > value2 ? "value 1 is greater" : "value 2 is greater"; 
 		System.out.println(greater);
+		
+		if((value1 == 3) && (value1 == 2) || (value1 < value2)) {
+			System.out.println("value 1 = 3 AND value 2 = 2 OR value 1 < value 2");
+		}
 	} 
 
 }
