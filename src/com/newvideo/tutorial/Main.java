@@ -5,9 +5,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a number");
-		int scanned = sc.nextInt();
-		System.out.println("the number is: "+scanned);
+		System.out.println("True or False");
+		boolean scanned = sc.nextBoolean();
+		System.out.println("the answer is: "+scanned);
 	}
 
 }
