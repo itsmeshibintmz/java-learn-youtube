@@ -23,6 +23,9 @@ public class LinkedLists {
 		list.removeLast();
 		System.out.println(list);
 		
+		list.pop();
+		System.out.println(list);
+		
 	}
 
 }
